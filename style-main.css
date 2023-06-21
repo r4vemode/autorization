@@ -1,0 +1,173 @@
+body{
+    margin-top: 100px;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.title-main{
+
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.carAndMinivan{
+    color: #0066FF;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.carts{
+	padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	flex-wrap: wrap;
+    gap: 40px;
+}
+
+.car-name{
+    font-weight: 700;
+    font-size: 24px;
+    
+}
+
+.car-item{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+
+width: 270px;
+height: 410px;
+
+/* blue */
+
+border: 1px solid #0066FF;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.car-item1{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+
+width: 270px;
+height: 410px;
+
+/* blue */
+
+border: 1px solid #0066FF;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+opacity: 0.6;
+}
+
+.car-price{
+    margin-top: 4px;
+}
+
+.car-bron{
+    display: inline-block;
+    color: #0066FF;
+    width:268px;
+    height: 40px;
+    max-width: auto;
+    margin-top: 33px;
+    border:1px solid #0066FF; 
+    padding-top: 15px;
+
+    transition: 0.5s;
+}
+
+.car-bron:hover{
+    background-color: blue;
+    color:aliceblue;
+    border-top: 1px solid #fff; 
+}
+
+#modal {
+	display: none;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 20px;
+	max-width: 360px;
+	width: 100%;
+	border-radius: 10px;
+	border: 1px solid #0066FF;
+	z-index: 10000;
+	background-color: #fff;
+}
+#modal.show {
+	display: block;
+}
+#modal h2 {
+	margin-top: 0;
+	text-align: center;
+}
+#modalClose {
+	display: block;
+	margin: 0 auto;
+	padding: 10px 25px;
+	max-width: 120px;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 1;
+	background-color: blue;
+	color: aliceblue;
+	text-align: center;
+	text-transform: uppercase;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+@media (max-width: 575px){
+	body {
+		margin-top: 20px;
+	}
+	.title-main {
+		font-size: 34px;
+	}
+}

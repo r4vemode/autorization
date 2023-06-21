@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carsharing_hub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style-main.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="wrapper">        
+        <div class="container">
+            <div class="title-main">
+                <div class="text-container">
+                        <h1 class="title-main">Choose your car</h1>
+                        <p class="carAndMinivan">Car and Minivan</p>
+                </div>  
+            </div> 
+            <ul class="carts">
+                <li class="car-item1">
+                    <div class="cart-rect">
+                        <img class="car-img" src="images/car1.jpg" alt="car1">
+                        <h5 class="car-name">Toyota Crown 2023</h5>
+                        <p class="car-price">2200rub/day</p>
+                        <a href="javascript:" class="car-bron">Забронировано</a>
+                    </div>
+                </li>
+                <li class="car-item">
+                    <div class="cart-rect">
+                        <img class="car-img" src="images/car2.jpg" alt="car1">
+                        <h5 class="car-name">Prius Prime 2023</h5>
+                        <p class="car-price">2200rub/day</p>
+                        <a href="javascript:" class="car-bron">Забронировать</a>
+                    </div>
+                </li>
+                <li class="car-item">
+                    <div class="cart-rect">
+                        <img class="car-img" src="images/car3.jpg" alt="car1">
+                        <h5 class="car-name">Toyota Prius 2023</h5>
+                        <p class="car-price">2200rub/day</p>
+                        <a href="javascript:" class="car-bron">Забронировать</a>
+                    </div>
+                </li>
+                <li class="car-item">
+                    <div class="cart-rect">
+                        <img class="car-img" src="images/car4.jpg" alt="car1">
+                        <h5 class="car-name">Hyundai Kona 2023</h5>
+                        <p class="car-price">2200rub/day</p>
+                        <a href="javascript:" class="car-bron">Забронировать</a>
+                    </div>
+                </li>
+            </ul>   
+        </div>
+    </div>
+	<div id="modal">
+		<h2><span id="autoName">Автомобиль</span><br>
+			забронирован!
+		</h2>
+		<div id="modalClose">Закрыть</div>
+	</div>
+</body>
+</html>
